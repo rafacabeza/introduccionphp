@@ -1,0 +1,13 @@
+{
+    "name": "vendor/introduccionphp",
+    "description": "Description of project introduccionphp.",
+    "authors": [
+        {
+            "name": "alumno",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "spipu/html2pdf": "dev-master"
+    }
+}

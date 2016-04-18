@@ -1,0 +1,30 @@
+body {
+    /*background: silver;*/
+    font: 14px 'trebuchet ms', arial, sans-serif;
+    margin: auto;
+    padding: 0.5em;
+    width: 50em;
+}
+
+
+
+div.php {
+    padding: 1em; 
+    border: solid 1px ; 
+    background:  beige; 
+    width: 90%; 
+    margin: auto
+}
+
+p.figura {
+    text-align: center;
+}
+
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
