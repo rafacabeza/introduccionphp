@@ -16,10 +16,11 @@ echo 'Nuestra  variable vale: ' , $variable , '<br><hr>'; //Con comas
 
 $anInteger = 3;
 $aFloat = 3.1416;
-$oneString = "Hola ";
-$otherString = 'mundo';
-$oneBoolean = true; // o false, recomendación Zend, en minúsculas.
-print($oneString . $otherString . '<hr>');
+$aString = "Hola ";
+$anotherString = 'mundo';
+$aBoolean = true; // recomendación Zend, en minúsculas.
+$anotherBoolean = false;
+print($aString . $anotherString . '<hr>');
 
 //podemos usar texto con comillas simples y dobles.
 //más habitual las simples y dejamos las dobles para el html
@@ -33,3 +34,7 @@ echo 'Un numero entero es $anInteger <br>';
  * Variables con estilo "$camelCase".
  * Las concatenaciones con espacios a ambos lados del punto
  */
+
+echo 'Una variable booleana es ' . $aBoolean . ' y otra es ' . $anotherBoolean;
+
+// ojo!! echo no muestra los "false".

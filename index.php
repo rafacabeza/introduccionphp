@@ -14,6 +14,7 @@ and open the template in the editor.
         <?php
         echo "<a href='php.php'> Enlace al pdf</a>";
         include 'parte01.php';
+        include 'parte02.php';
         ?>
     </body>
 </html>
