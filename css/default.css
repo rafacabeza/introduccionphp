@@ -3,12 +3,119 @@ body {
     font: 14px 'trebuchet ms', arial, sans-serif;
     margin: auto;
     padding: 0.5em;
-    width: 50em;
+/*    width: 50em;*/
+    background: silver;
+}
+
+body, html {
+  /*height: 100%;*/
+  font-family: Arial, Helvetica, Verdana;
+}
+
+#header {
+    padding: 1em ;
+    /*padding-bottom: 2em;*/
+    height: auto;
+    background: #6fac43   ;
+    /*background: #436fac   ;*/
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 4px solid   #8add4d;
+}
+#title {
+    padding: 0.4em;
+    font-size: 2em;
+    text-align: center;
+}
+    
+
+#content {
+    /*background: #fff;*/
+    background: #bafdad;
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom:  0;
+    float: none;
+}
+#content a, span  {
+    color: #555 ;
+    text-decoration: none;
+}
+
+#footer {
+/*    background: #436fac;*/
+    background: #6fac43;
+    color: #fff;
+    padding: 1em;
+    border-top: 4px solid #8add4d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#menu { 
+    /*display: block;*/
+    float: left; 
+    /*font-size: large;*/
+    /*width: 18%;*/ 
+    /*border: 1px solid #8add4d;*/
+    margin-bottom: auto;
+    margin-top: auto;
+    height: available;
+    color: #4f8c23;
+    /*border-radius: 10px;*/
+    /*padding: 0.5em;*/
+    /*    padding: 0; 
+    margin: 9px 0 0;
+    text-align: right; */
+}
+#menu a {
+    color: #4f8c23;
 }
 
 
 
+#main { 
+    display: block;
+/*    float: right;*/
+    /*background-color: #FF6;*/  
+    width: 75%; 
+    padding: 1em; 
+    margin:  0 auto;
+    margin-left: 18%;
+    /*border: 1px solid #8add4d;*/
+    border-left: 1px solid #4f8c23;
+    /*border-radius: 10px;*/
+        min-height: 20em;
+
+}
+
+
+/* Links */
+#header a {
+    color: #fff;
+    /*background: #234f8c;*/
+    background: #4f8c23;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 2px;
+}
+
+#header a:hover {
+/*    background: #4d8add*/
+    background: #8add4d
+        
+}
+
+
+
+
 div.php {
+    font-family: monospace;
     padding: 1em; 
     border: solid 1px ; 
     background:  beige; 
@@ -27,5 +134,11 @@ pre {
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+h1{
+    /*color: blue;*/
+    font-weight: bolder;
+    /*font-size: xx-large;*/
 }
 
