@@ -1,5 +1,6 @@
 <div id="main">
-    <h1>Programación Orientada a Objetos con PHP</h1>
+    <?php include "views/poo/00.php";?>
+<!--    <h1>Programación Orientada a Objetos con PHP</h1>-->
     <p>
     PHP nación como un lenguaje de scripting. Como tal no tenía la posibilidad 
     de usar programación orientada a objetos. PHP 4 incluía la orientación a 

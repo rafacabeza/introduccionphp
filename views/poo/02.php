@@ -1,4 +1,5 @@
 <div id="main">
+    <?php include "views/poo/00.php";?>
     <h2>Primera clase</h2>
     <p>Vamos a ver algunas cuestiones que debemos considerar:</p>
     <ul>

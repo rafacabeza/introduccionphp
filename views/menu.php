@@ -5,7 +5,9 @@
 <!--    <a href="<?php echo Paths::path('forms/01');?>">
         Formularios </a> <br>-->
     <a href="<?php echo Paths::path('poo/01');?>">
-        POO & MVC </a> <br>
+        POO  </a> <br>
+    <a href="<?php echo Paths::path('mvc/01');?>">
+        MVC </a> <br>
     <a href="<?php echo Paths::path('acl/01');?>">
         Control de acceso </a>  <br>
         
@@ -39,6 +41,17 @@ switch ($chapter) {
         echo '<a href="' . Paths::path('poo/05') . '">Constantes y static </a> <br>';
         echo '<a href="' . Paths::path('poo/06') . '">Herencia </a> <br>';
         echo '<a href="' . Paths::path('poo/07') . '">Interfaces </a> <br>';
+        break;
+
+    case 'mvc':      
+        echo "POO & MVC</h4>";
+        echo '<a href="' . Paths::path('mvc/01') . '">Controlador frontal </a> <br>';
+        echo '<a href="' . Paths::path('mvc/02') . '">URL amigables </a> <br>';
+        echo '<a href="' . Paths::path('mvc/03') . '"> ... </a> <br>';
+        echo '<a href="' . Paths::path('mvc/04') . '"> ...  </a> <br>';
+        echo '<a href="' . Paths::path('mvc/05') . '"> ...  </a> <br>';
+        echo '<a href="' . Paths::path('mvc/06') . '"> ...  </a> <br>';
+        echo '<a href="' . Paths::path('mvc/07') . '"> ...  </a> <br>';
         break;
 
     default:

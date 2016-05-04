@@ -1,4 +1,5 @@
 <div id="main">
+    <?php include "views/poo/00.php";?>
     <h2>Métodos mágicos</h2>
     
     <p>
