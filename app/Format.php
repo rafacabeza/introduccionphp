@@ -28,9 +28,12 @@ abstract class Format
     static function codigoFichero($fichero="" )
     {
 //        if (empty($ejemplo)) return 0;
-        $path = 'ejemplos/' .  $fichero;
+        $path = PATHS::path($fichero) ;
         echo '<div class="php">';
-        highlight_file($path );
+        $content = file_get_contents($fichero);
+//        var_dump($content);
+        highlight_file($fichero);
         echo '</div>';        
+        echo '<p class="figura">Fichero ' . $fichero . '</p>'; 
     }
 }

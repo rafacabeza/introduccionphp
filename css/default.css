@@ -124,6 +124,10 @@ div.php {
     margin-top: 2em;
 }
 
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
 p.figura {
     text-align: center;
 }

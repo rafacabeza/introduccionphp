@@ -18,6 +18,8 @@ class Bootstrap
         $controller = $_GET['controller'];
         $method = $_GET['method'];
         
+        echo '<!DOCTYPE html>';   
+        echo '<meta charset="UTF-8">';
         echo 'Estamos en Bootstrap, el controlador frontal. <br>';
         echo ' Esta será la raíz de la apliación de ahora en adelante. <br>' ;
         echo 'Esto es el __construct, algo asi como el main. <br>';

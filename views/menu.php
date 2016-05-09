@@ -45,13 +45,12 @@ switch ($chapter) {
 
     case 'mvc':      
         echo "POO & MVC</h4>";
-        echo '<a href="' . Paths::path('mvc/01') . '">Controlador frontal </a> <br>';
-        echo '<a href="' . Paths::path('mvc/02') . '">URL amigables </a> <br>';
-        echo '<a href="' . Paths::path('mvc/03') . '"> ... </a> <br>';
-        echo '<a href="' . Paths::path('mvc/04') . '"> ...  </a> <br>';
+        echo '<a href="' . Paths::path('mvc/01') . '"> El MVC </a> <br>';
+        echo '<a href="' . Paths::path('mvc/02') . '">Controlador frontal </a> <br>';
+        echo '<a href="' . Paths::path('mvc/03') . '">URL amigables </a> <br>';
+        echo '<a href="' . Paths::path('mvc/04') . '"> ... </a> <br>';
         echo '<a href="' . Paths::path('mvc/05') . '"> ...  </a> <br>';
         echo '<a href="' . Paths::path('mvc/06') . '"> ...  </a> <br>';
-        echo '<a href="' . Paths::path('mvc/07') . '"> ...  </a> <br>';
         break;
 
     default:
