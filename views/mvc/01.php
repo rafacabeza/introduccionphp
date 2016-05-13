@@ -27,7 +27,7 @@
         cada uno de estos nombres, en inglés <em>models, views, controllers</em>.
         
     </p>
-    <img src="<?php echo Config::HOST;?>img/mvc.png">        
+    <img src="<?php echo Config::HOST;?>public/img/mvc.png">        
        
 </div><div>
     

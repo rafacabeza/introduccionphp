@@ -12,7 +12,6 @@ class Bootstrap
     public function __construct()
     {
         $controllerName = $_GET['controller'];
-        $controllerName = ucfirst($controllerName);
         $method = $_GET['method'];
         $id = $_GET['id'];
         
@@ -22,7 +21,7 @@ class Bootstrap
             echo '<a href="?controller=user&method=add"> Alta de usuario </a><br>';
         }
         else{
-            require_once 'controllers/' . ucfirst($controllerName) . '.php';
+            require_once 'controllers/' . $controllerName . '.php';
             $controller = new $controllerName;
             $controller->$method($id);
         }           
