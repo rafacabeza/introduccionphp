@@ -29,5 +29,8 @@
         los podemos citar:  __callStatic(), __get(), __set(), __isset(),
         __unset(), __sleep(), __wakeup(), __toString(), __invoke(), 
     </p>
+
+    <?php Format::ejemplo(14);?>
+
 </div><div>
     
