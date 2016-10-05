@@ -44,7 +44,7 @@
         </li>
         <li>
             Las llaves de clase y función comenzarán en nueva línea.
-            <?php Format::codigoFichero('ejemplo13.php') ?>
+            <?php Format::ejemplo(13);?>
         </li>
     </ul>
     
