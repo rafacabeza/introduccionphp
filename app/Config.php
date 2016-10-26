@@ -1,7 +1,8 @@
 <?php
 
-abstract class Config{
-    const HOST = 'http://localhost/introduccionphp/';
+abstract class Config
+{
+    const HOST = '/introduccionphp/';
     const ROOT = 'C:/wamp/www/introduccionphp/';
 
     static function path($file="")

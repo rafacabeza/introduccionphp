@@ -14,6 +14,18 @@ abstract class Format
         echo '<p class="figura"><a href="../' . 
                 $path . '">Ejemplo ' . $ejemplo . $version . '</a></p>';
         
+    }    
+    static function ejemploHtml($ejemplo="", $version="")
+    {
+        
+//        if (empty($ejemplo)) return 0;
+        $path = 'ejemplos/ejemplo' . sprintf("%02d", $ejemplo) . $version . '.html';
+        echo '<div class="php">';
+        highlight_file($path );
+        echo '</div>';
+        echo '<p class="figura"><a href="../' . 
+                $path . '">Ejemplo ' . $ejemplo . $version . '</a></p>';
+        
     }
 
     static function codigoLiteral($codigo )
