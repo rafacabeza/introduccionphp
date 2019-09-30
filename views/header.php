@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="<?php echo Config::path('public/css/default.css');?>">   </head>
+        <link rel="stylesheet" href="/public/css/default.css">   </head>
     
     <body >
         <div id="header">  
